@@ -14,7 +14,7 @@ angular.module('App').controller('mainController', ['$scope', function($scope,ui
             editable: true,
             header:{
                 left: 'month basicWeek basicDay',
-                center: '',
+                center: 'title',
                 right: 'today prev,next'
             }
         }
