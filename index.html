@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="/public/lib/fullcalendar/dist/fullcalendar.css"/>
+    <link rel="stylesheet" href="/public/css/calendar.css"/>
+    <link rel="stylesheet" href="/public/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/public/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/lib/angular-bootstrap/ui-bootstrap-csp.css"/>
 
 </head>
 <body ng-controller="mainController">
     <div ui-calendar ng-model="eventSources"></div>
 </body>
-
-<!-- jquery, moment, and angular have to get included before fullcalendar -->
-<script type="text/javascript" src="/public/lib/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="/public/lib/moment/moment.js"></script>
-<script type="text/javascript" src="/public/lib/angular/angular.min.js"></script>
-<script type="text/javascript" src="/public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-<script type="text/javascript" src="/public/lib/angular-ui-calendar/calendar.min.js"></script>
-<script type="text/javascript" src="/public/lib/fullcalendar/dist/fullcalendar.js"></script>
-<script type="text/javascript" src="/public/lib/fullcalendar/dist/gcal.js"></script>
-<script type="text/javascript" src="/public/js/main.js"></script>
-<script type="text/javascript" src="/public/js/controllers/mainController.js"></script>
-<script type="text/javascript" src="/public/js/googlecal.js"></script>
+    <!-- jquery, moment, and angular have to get included before fullcalendar -->
+    <script type="text/javascript" src="/public/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/public/lib/moment/moment.js"></script>
+    <script type="text/javascript" src="/public/lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/public/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="/public/lib/angular-ui-calendar/calendar.min.js"></script>
+    <script type="text/javascript" src="/public/lib/fullcalendar/dist/fullcalendar.js"></script>
+    <script type="text/javascript" src="/public/lib/fullcalendar/dist/lang/pt-br.js"></script>
+    <script type="text/javascript" src="/public/js/gcalc.js"></script>
+    <script type="text/javascript" src="/public/js/main.js"></script>
+    <script type="text/javascript" src="/public/js/controllers/mainController.js"></script>
+    <script type="text/javascript" src="/public/js/googlecal.js"></script>
 </html>
+
+
