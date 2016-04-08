@@ -1,0 +1,1 @@
+module.exports = require("github:angular-ui/ui-calendar@1.0.1/src/calendar.js");
