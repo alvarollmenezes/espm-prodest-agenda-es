@@ -28,6 +28,13 @@
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
+    },
+    "overrides": {
+      "github:fullcalendar/fullcalendar@2.6.1": {
+        "dependencies": {
+          "moment": "jspm:moment@^2.9.0"
+        }
+      }
     }
   },
   "devDependencies": {

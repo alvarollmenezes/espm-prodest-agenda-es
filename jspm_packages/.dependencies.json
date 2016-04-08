@@ -57,7 +57,9 @@
   },
   "github:angular-ui/bootstrap-bower@1.3.1": {},
   "github:angular-ui/ui-calendar@1.0.1": {},
-  "github:fullcalendar/fullcalendar@2.6.1": {},
   "npm:jquery@2.2.3": {},
-  "npm:moment@2.9.0": {}
+  "npm:moment@2.9.0": {},
+  "github:fullcalendar/fullcalendar@2.6.1": {
+    "moment": "jspm:moment@^2.9.0"
+  }
 }

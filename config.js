@@ -37,6 +37,7 @@ System.config({
       "angular": "github:angular/bower-angular@1.5.3"
     },
     "github:fullcalendar/fullcalendar@2.6.1": {
+      "moment": "npm:moment@2.9.0"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
