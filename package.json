@@ -11,38 +11,33 @@
     "format": "cjs",
     "dependencies": {
       "angular": "github:angular/bower-angular@^1.5.3",
-      "angular-bootstrap": "github:angular-ui/bootstrap-bower@^1.3.1",
-      "angular-ui-router": "github:angular-ui/ui-router@^0.2.18",
+      "angular-ui-router": "npm:angular-ui-router@^0.2.18",
       "angular-ui/ui-calendar": "github:angular-ui/ui-calendar@^1.0.1",
       "bootstrap": "github:twbs/bootstrap@^3.3.6",
       "css": "github:systemjs/plugin-css@^0.1.20",
       "font-awesome": "npm:font-awesome@^4.5.0",
-      "fullcalendar/fullcalendar": "github:fullcalendar/fullcalendar@^2.6.1",
+      "fullcalendar": "npm:fullcalendar@^2.7.0-beta",
       "jquery": "npm:jquery@^2.2.3",
       "json": "github:systemjs/plugin-json@^0.1.0",
-      "moment": "npm:moment@2.9.0",
-      "text": "github:systemjs/plugin-text@^0.0.7",
-      "ui-router-extras": "github:christopherthielen/ui-router-extras@^0.0.14"
+      "text": "github:systemjs/plugin-text@^0.0.7"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
-    },
-    "overrides": {
-      "github:fullcalendar/fullcalendar@2.6.1": {
-        "dependencies": {
-          "moment": "jspm:moment@^2.9.0"
-        }
-      }
     }
   },
   "devDependencies": {
     "chai": "^1.10.0",
+    "eslint-config-idiomatic": "^2.0.0",
+    "eslint-config-prodest": "^1.0.12",
+    "eslint-config-prodest-angular": "^1.0.2",
+    "eslint-plugin-angular": "^1.0.0",
     "gulp": "^3.8.10",
     "gulp-bump": "^0.1.11",
     "gulp-shell": "^0.2.11",
     "gulp-watch": "^3.0.0",
+    "jspm": "^0.16.32",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.1.7",
     "karma-jspm": "^1.1.1",
@@ -52,10 +47,6 @@
     "karma-sinon": "^1.0.4",
     "mocha": "^2.1.0",
     "semver": "^4.2.0",
-    "sinon": "^1.12.2",
-    "eslint-plugin-angular": "^1.0.0",
-    "eslint-config-idiomatic": "^2.0.0",
-    "eslint-config-prodest": "^1.0.12",
-    "eslint-config-prodest-angular": "^1.0.2"
+    "sinon": "^1.12.2"
   }
 }
