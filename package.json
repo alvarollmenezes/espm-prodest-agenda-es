@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "main": "lib/index",
   "scripts": {
-    "serve": "jspm-server --open=lib/espmEmulator/index.html"
+    "publish": "jspm install",
+    "start": "jspm-server --open=lib/espmEmulator/index.html"
   },
   "jspm": {
     "format": "cjs",
