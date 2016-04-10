@@ -28,4 +28,4 @@ build/Release
 node_modules
 
 # packages
-jspm_packages
+jspm_packages/**

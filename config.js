@@ -14,7 +14,7 @@ System.config({
   },
 
   map: {
-    "angular": "github:angular/bower-angular@1.5.3",
+    "angular": "npm:angular@1.5.0",
     "angular-ui-router": "npm:angular-ui-router@0.2.18",
     "angular-ui/ui-calendar": "github:angular-ui/ui-calendar@1.0.1",
     "babel": "npm:babel-core@5.8.38",
@@ -43,7 +43,7 @@ System.config({
       "jquery": "github:components/jquery@2.2.1"
     },
     "npm:angular-ui-router@0.2.18": {
-      "angular": "npm:angular@1.5.3",
+      "angular": "npm:angular@1.5.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:assert@1.3.0": {
