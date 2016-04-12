@@ -1,14 +1,10 @@
-﻿<!--suppress HtmlUnknownTarget, HtmlUnknownAttribute -->
-<div ng-init="vm.activate()" class="container espm-plugin-agenda">
-  <div class="row">
-    <div class="col-lg-12 panel panel-default">
-      <!--suppress HtmlUnknownTarget -->
-      <img id="logo-agenda" alt="agenda empreendedora" src="lib/plugin/img/Logo.jpg"
-           class="img-responsive">
-      <div class="panel-body">
-        <div class="span8 calendar" ui-calendar="vm.uiConfig.calendar"
-             ng-model="vm.eventSources"></div>
-      </div>
+<div class="container" ng-init="vm.activate()" class="espm-plugin-agenda">
+    <div class="row">
+        <div class="col-lg-12 panel panel-default">
+           <img id="logo-agenda" alt="agenda empreendedora" src="lib/plugin/img/Logo.jpg" class="img-responsive">
+            <div class="panel-body">
+                <div class="span8 calendar" ui-calendar="vm.uiConfig.calendar" ng-model="vm.eventSources"></div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
