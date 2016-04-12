@@ -1,5 +1,8 @@
 {
-  "extends": [ "prodest", "prodest-angular" ],
+  "extends": [
+    "prodest",
+    "prodest-angular"
+  ],
   "parserOptions": {
     "sourceType": "module"
   },
@@ -8,7 +11,8 @@
     "commonjs": true,
     "node": true,
     "mocha": true,
-    "jasmine": true
+    "jasmine": true,
+    "amd": true
   },
   "globals": {
     "expect": true,
