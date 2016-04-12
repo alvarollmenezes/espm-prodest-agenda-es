@@ -6,6 +6,7 @@
   "main": "lib/index",
   "scripts": {
     "publish": "jspm install",
+    "lint": "eslint ./lib/plugin --fix --cache",
     "start": "jspm-server --open=lib/espmEmulator/index.html"
   },
   "jspm": {
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "chai": "^1.10.0",
+    "eslint": "^2.7.0",
     "eslint-config-idiomatic": "^2.0.0",
     "eslint-config-prodest": "^1.0.12",
     "eslint-config-prodest-angular": "^1.0.2",
