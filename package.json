@@ -1,24 +1,28 @@
 {
   "name": "agenda",
   "repository": "http://github.com/hoisel/agenda",
-  "registry": "jspm",
   "version": "0.1.0",
-  "main": "lib/index",
   "scripts": {
     "publish": "jspm install",
     "lint": "eslint ./lib/plugin --fix --cache",
     "start": "jspm-server --open=lib/espmEmulator/index.html"
   },
   "jspm": {
+    "registry": "jspm",
+    "main": "index",
     "format": "cjs",
+    "directories": {
+      "lib": "lib/plugin"
+    },
     "dependencies": {
-      "angular": "npm:angular@1.5.0",
-      "angular-ui-router": "npm:angular-ui-router@^0.2.18",
+      "angular": "github:angular/bower-angular@^1.5.0",
+      "angular-ui-router": "github:angular-ui/ui-router@^0.2.18",
       "angular-ui/ui-calendar": "github:angular-ui/ui-calendar@^1.0.1",
       "bootstrap": "github:twbs/bootstrap@^3.3.6",
       "css": "github:systemjs/plugin-css@^0.1.20",
       "font-awesome": "npm:font-awesome@^4.5.0",
       "fullcalendar": "npm:fullcalendar@^2.7.0-beta",
+      "image": "github:systemjs/plugin-image@^0.1.0",
       "jquery": "npm:jquery@^2.2.3",
       "json": "github:systemjs/plugin-json@^0.1.0",
       "text": "github:systemjs/plugin-text@^0.0.7"

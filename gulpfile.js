@@ -23,5 +23,5 @@ gulp.task( 'deploy', function() {
 } );
 
 gulp.task( 'link', function() {
-    watch( [ 'lib/**/*' ], shell.task( [ 'jspm link github:hoisel/agenda@dev -y' ] ) );
+    watch( [ 'lib/**/*' ], shell.task( [ 'jspm link github:hoisel/espm-prodest-agenda-es@dev -y' ] ) );
 } );

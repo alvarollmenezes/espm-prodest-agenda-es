@@ -11,8 +11,7 @@
     "commonjs": true,
     "node": true,
     "mocha": true,
-    "jasmine": true,
-    "amd": true
+    "jasmine": true
   },
   "globals": {
     "expect": true,

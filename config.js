@@ -24,6 +24,7 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.20",
     "font-awesome": "npm:font-awesome@4.5.0",
     "fullcalendar": "npm:fullcalendar@2.7.0-beta",
+    "image": "github:systemjs/plugin-image@0.1.0",
     "jquery": "npm:jquery@2.2.3",
     "json": "github:systemjs/plugin-json@0.1.0",
     "text": "github:systemjs/plugin-text@0.0.7",
